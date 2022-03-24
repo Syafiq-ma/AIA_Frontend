@@ -1,0 +1,23 @@
+.paging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.paging-button{
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: #010101;
+}
+
+.paging-button:hover{
+    background-color: whitesmoke;
+}
