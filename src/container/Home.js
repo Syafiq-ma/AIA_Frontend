@@ -14,7 +14,7 @@ const Home = () => {
     const [data,setData] = useState([])
     const [search,setSearch] = useState('')
     const [currentPage, setCurrentPage] = useState(1)
-    const [photoPerPage, setPhotoPerPage] = useState(5)
+    const photoPerPage = 5
     useEffect(()=>{
         const photosData = sendRequest( 'https://find-photos-aia.herokuapp.com/api/data')
         Promise.all([photosData])
